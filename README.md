@@ -53,9 +53,9 @@ Refer to requirements.txt for the list of required Python packages.
 
 Author
 
-Jithin BabuLinkedIn Profile
+Jithin Babu
+LinkedIn Profile
 
 License
-
 This project is licensed under the MIT License.
 
