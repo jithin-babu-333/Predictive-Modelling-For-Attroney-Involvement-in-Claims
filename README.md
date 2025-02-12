@@ -1,96 +1,72 @@
-Predictive Modelling for Attorney Analysis
+# Predictive Modelling for Attorney Analysis
 
-Overview
+## 📌 Overview
+Predictive Modelling for Attorney Analysis is a machine learning-powered tool designed to predict whether an attorney will be involved in an insurance claim based on various factors like claim amount, accident severity, and policy type. The goal is to help insurance companies streamline claims handling and reduce unnecessary legal costs.
 
-This project leverages machine learning techniques to predict whether an attorney will be involved in an insurance claim based on various factors such as claim amount, accident severity, policy type, and claimant details. By analyzing historical data, the model provides insights that can help insurance companies optimize their claim-handling process and reduce unnecessary legal costs.
+## 🚀 Features
+- AI-powered attorney involvement prediction
+- Interactive web-based interface (Streamlit)
+- Real-time input and instant predictions
+- Preprocessing and feature selection for better model accuracy
+- Deployable as a web application
 
-Features
-
-Predicts attorney involvement in claims using machine learning models.
-
-Interactive web-based interface powered by Streamlit.
-
-Data preprocessing and feature selection for improved model performance.
-
-Supports real-time predictions based on user input.
-
-Deployable as a web application for ease of access.
-
-Technical Stack
-
-Programming Language: Python
-
-Libraries & Frameworks: Streamlit, Scikit-learn, Pandas, NumPy, Joblib, Pillow
-
-Modeling Techniques: Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting
-
-Deployment: Streamlit-based web application
-
-Installation
-
-1. Clone the Repository
-
+## 🔧 Installation
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/jithin-babu-gif/Predictive-Modelling-for-Attorney-Analysis.git
 cd Predictive-Modelling-for-Attorney-Analysis
-
-2. Create a Virtual Environment (Optional but Recommended)
-
+```
+### 2️⃣ Create a Virtual Environment (Recommended)
+```bash
 python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows
-
-3. Install Dependencies
-
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate  # Windows
+```
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Running the Application
-
+## ▶️ Running the Application
+```bash
 streamlit run deploy.py
+```
+This will launch the Streamlit application in your browser.
 
-Model Performance
+## 📊 Model Performance
+| Metric       | Score |
+|-------------|-------|
+| Accuracy    | 85%   |
+| Precision   | 82%   |
+| Recall      | 78%   |
+| F1-Score    | 80%   |
 
-Accuracy: ~85%
+**Key Features Influencing Prediction:**
+- Claim Amount
+- Accident Severity
+- Policy Type
 
-Precision: 82%
+## 📂 Project Structure
+```
+📁 Predictive-Modelling-for-Attorney-Analysis
+│── 📄 deploy.py              # Streamlit app for model deployment
+│── 📄 InsurancePrediction.ipynb  # Model training and evaluation notebook
+│── 📄 preprocessor.pkl       # Preprocessing pipeline
+│── 📄 feature_selector.pkl   # Feature selection pipeline
+│── 📄 best_model.pkl         # Trained machine learning model
+│── 📄 requirements.txt       # Dependencies list
+```
 
-Recall: 78%
+## 🔮 Future Enhancements
+- Improve model performance with deep learning
+- Expand dataset with additional claim-related features
+- API deployment for broader usability
+- Enhanced UI with better visualization insights
 
-F1-Score: 80%
+## 👨‍💻 Author
+[Jithin Babu](https://github.com/jithin-babu-gif)  
+[LinkedIn Profile](https://www.linkedin.com/in/jithin-babu-a34287246)
 
-Feature Importance: Claim amount, accident severity, policy type were the most influential factors.
-
-File Structure
-
-deploy.py - Streamlit application for deployment
-
-InsurancePrediction.ipynb - Jupyter notebook containing model training and evaluation
-
-preprocessor.pkl - Preprocessing pipeline for feature transformation
-
-feature_selector.pkl - Feature selection pipeline
-
-best_model.pkl - Trained machine learning model
-
-Future Enhancements
-
-Incorporate deep learning techniques for improved accuracy.
-
-Enhance dataset with additional claim-related features.
-
-Deploy the model as an API for wider usability.
-
-Improve UI/UX with more visual insights and explanations.
-
-Dependencies
-
-Refer to requirements.txt for the list of required Python packages.
-
-Author
-
-Jithin Babu
- LinkedIn Profile
-
-License
-
-This project is licensed under the MIT License.
+## 📜 License
+This project is licensed under the **MIT License**.
 
