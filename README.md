@@ -64,7 +64,7 @@ This will launch the Streamlit application in your browser.
 - Enhanced UI with better visualization insights
 
 ## 👨‍💻 Author
-[Jithin Babu](https://github.com/jithin-babu-gif)  
+[Jithin Babu](https://github.com/jithin-babu-333)  
 [LinkedIn Profile](https://www.linkedin.com/in/jithin-babu-a34287246)
 
 ## 📜 License
